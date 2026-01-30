@@ -1,0 +1,23 @@
+# Flast Web API
+@host = http://127.0.0.1:5555   
+
+# Javascript Web API
+@host2 = http://127.0.0.1:3000
+
+@google = https://www.google.com
+
+###
+GET {{google}}/
+
+###
+GET {{host}}/items
+
+###
+
+GET {{host}}/items/1
+
+###
+# JavaScript Web API Tests
+###
+
+GET {{host2}}/people
